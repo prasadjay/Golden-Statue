@@ -1,0 +1,974 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>audio\fail.wav</Source>
+      <Name>audio\fail</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\audio\fail.xnb</Output>
+      <Time>2013-04-04T20:57:36.0224246+05:30</Time>
+    </Item>
+    <Item>
+      <Source>audio\final.wav</Source>
+      <Name>audio\final</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\audio\final.xnb</Output>
+      <Time>2013-04-04T20:57:36.0224246+05:30</Time>
+    </Item>
+    <Item>
+      <Source>audio\jump.wav</Source>
+      <Name>audio\jump</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\audio\jump.xnb</Output>
+      <Time>2013-04-04T20:57:36.0224246+05:30</Time>
+    </Item>
+    <Item>
+      <Source>audio\rain2.mp3</Source>
+      <Name>audio\rain2</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\audio\rain2.xnb</Output>
+      <Extra>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\audio\rain2.wma</Extra>
+      <Time>2013-04-04T20:57:36.0224246+05:30</Time>
+    </Item>
+    <Item>
+      <Source>fonts\SFont.spritefont</Source>
+      <Name>fonts\SFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\fonts\SFont.xnb</Output>
+      <Time>2013-04-04T20:57:47.4076753+05:30</Time>
+    </Item>
+    <Item>
+      <Source>fonts\SFont2.spritefont</Source>
+      <Name>fonts\SFont2</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\fonts\SFont2.xnb</Output>
+      <Time>2013-04-04T20:57:47.4076753+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\1.jpg</Source>
+      <Name>images\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\1.xnb</Output>
+      <Time>2013-04-04T20:57:59.1367111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\10.jpg</Source>
+      <Name>images\10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\10.xnb</Output>
+      <Time>2013-04-04T20:57:59.1523111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\11.jpg</Source>
+      <Name>images\11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\11.xnb</Output>
+      <Time>2013-04-04T20:57:59.1523111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\12.jpg</Source>
+      <Name>images\12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\12.xnb</Output>
+      <Time>2013-04-04T20:57:59.1679111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\13.jpg</Source>
+      <Name>images\13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\13.xnb</Output>
+      <Time>2013-04-04T20:57:59.1679111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\14.jpg</Source>
+      <Name>images\14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\14.xnb</Output>
+      <Time>2013-04-04T20:57:59.1679111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\15.jpg</Source>
+      <Name>images\15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\15.xnb</Output>
+      <Time>2013-04-04T20:57:59.1679111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\16.jpg</Source>
+      <Name>images\16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\16.xnb</Output>
+      <Time>2013-04-04T20:57:59.1679111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\17.jpg</Source>
+      <Name>images\17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\17.xnb</Output>
+      <Time>2013-04-04T20:57:59.1679111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\18.jpg</Source>
+      <Name>images\18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\18.xnb</Output>
+      <Time>2013-04-04T20:57:59.1679111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\19.jpg</Source>
+      <Name>images\19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\19.xnb</Output>
+      <Time>2013-04-04T20:57:59.1679111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\2.jpg</Source>
+      <Name>images\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\2.xnb</Output>
+      <Time>2013-04-04T20:57:59.1367111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\20.jpg</Source>
+      <Name>images\20</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\20.xnb</Output>
+      <Time>2013-04-04T20:57:59.1679111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\21.jpg</Source>
+      <Name>images\21</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\21.xnb</Output>
+      <Time>2013-04-04T20:57:59.1835112+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\22.jpg</Source>
+      <Name>images\22</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\22.xnb</Output>
+      <Time>2013-04-04T20:57:58.9963108+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\23.jpg</Source>
+      <Name>images\23</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\23.xnb</Output>
+      <Time>2013-04-04T20:57:58.9963108+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\24.jpg</Source>
+      <Name>images\24</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\24.xnb</Output>
+      <Time>2013-04-04T20:57:58.9963108+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\25.jpg</Source>
+      <Name>images\25</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\25.xnb</Output>
+      <Time>2013-04-04T20:57:59.0119109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\26.jpg</Source>
+      <Name>images\26</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\26.xnb</Output>
+      <Time>2013-04-04T20:57:59.0119109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\27.jpg</Source>
+      <Name>images\27</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\27.xnb</Output>
+      <Time>2013-04-04T20:57:59.0119109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\3.jpg</Source>
+      <Name>images\3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\3.xnb</Output>
+      <Time>2013-04-04T20:57:59.1523111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\4.jpg</Source>
+      <Name>images\4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\4.xnb</Output>
+      <Time>2013-04-04T20:57:59.1523111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\5.jpg</Source>
+      <Name>images\5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\5.xnb</Output>
+      <Time>2013-04-04T20:57:59.1523111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\6.jpg</Source>
+      <Name>images\6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\6.xnb</Output>
+      <Time>2013-04-04T20:57:59.1523111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\7.jpg</Source>
+      <Name>images\7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\7.xnb</Output>
+      <Time>2013-04-04T20:57:59.1523111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\8.jpg</Source>
+      <Name>images\8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\8.xnb</Output>
+      <Time>2013-04-04T20:57:59.1523111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\9.jpg</Source>
+      <Name>images\9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\9.xnb</Output>
+      <Time>2013-04-04T20:57:59.1523111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\bird1Fro.png</Source>
+      <Name>images\bird1Fro</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\bird1Fro.xnb</Output>
+      <Time>2013-04-04T20:57:59.0275109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\bird1Rev.png</Source>
+      <Name>images\bird1Rev</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\bird1Rev.xnb</Output>
+      <Time>2013-04-04T20:57:59.0275109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\bonusLevel.png</Source>
+      <Name>images\bonusLevel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\bonusLevel.xnb</Output>
+      <Time>2013-04-04T20:57:59.0275109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\bonusLevel1.png</Source>
+      <Name>images\bonusLevel1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\bonusLevel1.xnb</Output>
+      <Time>2013-04-04T20:57:59.0275109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\bonusLevel2.png</Source>
+      <Name>images\bonusLevel2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\bonusLevel2.xnb</Output>
+      <Time>2013-04-04T20:57:59.0431109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\bonusScreen.jpg</Source>
+      <Name>images\bonusScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\bonusScreen.xnb</Output>
+      <Time>2013-04-04T20:57:59.0431109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\buddha.png</Source>
+      <Name>images\buddha</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\buddha.xnb</Output>
+      <Time>2013-04-04T20:57:59.0431109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\cloud_bar.png</Source>
+      <Name>images\cloud_bar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\cloud_bar.xnb</Output>
+      <Time>2013-04-04T20:57:59.0431109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\Controllers.png</Source>
+      <Name>images\Controllers</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\Controllers.xnb</Output>
+      <Time>2013-04-04T20:57:59.0431109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\dark.jpg</Source>
+      <Name>images\dark</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\dark.xnb</Output>
+      <Time>2013-04-04T20:57:59.0431109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\deerFro.png</Source>
+      <Name>images\deerFro</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\deerFro.xnb</Output>
+      <Time>2013-04-04T20:57:59.0431109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\deerFro2.png</Source>
+      <Name>images\deerFro2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\deerFro2.xnb</Output>
+      <Time>2013-04-04T20:57:59.0431109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\deerRev.png</Source>
+      <Name>images\deerRev</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\deerRev.xnb</Output>
+      <Time>2013-04-04T20:57:59.0431109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\deerRev2.png</Source>
+      <Name>images\deerRev2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\deerRev2.xnb</Output>
+      <Time>2013-04-04T20:57:59.0431109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\diamondBonus.png</Source>
+      <Name>images\diamondBonus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\diamondBonus.xnb</Output>
+      <Time>2013-04-04T20:57:59.0587109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\diamondNew.png</Source>
+      <Name>images\diamondNew</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\diamondNew.xnb</Output>
+      <Time>2013-04-04T20:57:59.0587109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\exitToMenu.png</Source>
+      <Name>images\exitToMenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\exitToMenu.xnb</Output>
+      <Time>2013-04-04T20:57:59.0587109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\fail.png</Source>
+      <Name>images\fail</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\fail.xnb</Output>
+      <Time>2013-04-04T20:57:59.0587109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\fireLarge.png</Source>
+      <Name>images\fireLarge</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\fireLarge.xnb</Output>
+      <Time>2013-04-04T20:57:59.0587109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\fireMedium.png</Source>
+      <Name>images\fireMedium</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\fireMedium.xnb</Output>
+      <Time>2013-04-04T20:57:59.0587109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\fireTourch.png</Source>
+      <Name>images\fireTourch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\fireTourch.xnb</Output>
+      <Time>2013-04-04T20:57:59.0587109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\flowerAni.png</Source>
+      <Name>images\flowerAni</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\flowerAni.xnb</Output>
+      <Time>2013-04-04T20:57:59.0587109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\ground.jpg</Source>
+      <Name>images\ground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\ground.xnb</Output>
+      <Time>2013-04-04T20:57:59.0587109+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\groundBlockNew.png</Source>
+      <Name>images\groundBlockNew</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\groundBlockNew.xnb</Output>
+      <Time>2013-04-04T20:57:59.074311+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\heroBlocked.png</Source>
+      <Name>images\heroBlocked</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\heroBlocked.xnb</Output>
+      <Time>2013-04-04T20:57:59.074311+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\heroFro.png</Source>
+      <Name>images\heroFro</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\heroFro.xnb</Output>
+      <Time>2013-04-04T20:57:59.074311+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\heroRev2.png</Source>
+      <Name>images\heroRev2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\heroRev2.xnb</Output>
+      <Time>2013-04-04T20:57:59.074311+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\heroStill.png</Source>
+      <Name>images\heroStill</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\heroStill.xnb</Output>
+      <Time>2013-04-04T20:57:59.074311+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\heroTest.png</Source>
+      <Name>images\heroTest</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\heroTest.xnb</Output>
+      <Time>2013-04-04T20:57:59.074311+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\heroTest2.png</Source>
+      <Name>images\heroTest2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\heroTest2.xnb</Output>
+      <Time>2013-04-04T20:57:59.074311+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\ironFence2.png</Source>
+      <Name>images\ironFence2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\ironFence2.xnb</Output>
+      <Time>2013-04-04T20:57:59.074311+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\level2.png</Source>
+      <Name>images\level2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\level2.xnb</Output>
+      <Time>2013-04-04T20:57:59.074311+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\level2End.png</Source>
+      <Name>images\level2End</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\level2End.xnb</Output>
+      <Time>2013-04-04T20:57:59.074311+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\level3.png</Source>
+      <Name>images\level3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\level3.xnb</Output>
+      <Time>2013-04-04T20:57:59.089911+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\level3Ground.png</Source>
+      <Name>images\level3Ground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\level3Ground.xnb</Output>
+      <Time>2013-04-04T20:57:59.089911+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\lion.png</Source>
+      <Name>images\lion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\lion.xnb</Output>
+      <Time>2013-04-04T20:57:59.089911+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\loggNew.png</Source>
+      <Name>images\loggNew</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\loggNew.xnb</Output>
+      <Time>2013-04-04T20:57:59.089911+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\markBanner.png</Source>
+      <Name>images\markBanner</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\markBanner.xnb</Output>
+      <Time>2013-04-04T20:57:59.089911+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\mushroom.png</Source>
+      <Name>images\mushroom</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\mushroom.xnb</Output>
+      <Time>2013-04-04T20:57:59.089911+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\mushroomNew.png</Source>
+      <Name>images\mushroomNew</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\mushroomNew.xnb</Output>
+      <Time>2013-04-04T20:57:59.089911+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\newPdr.png</Source>
+      <Name>images\newPdr</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\newPdr.xnb</Output>
+      <Time>2013-04-04T20:57:59.089911+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\paused.png</Source>
+      <Name>images\paused</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\paused.xnb</Output>
+      <Time>2013-04-04T20:57:59.089911+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\pdrNew2.png</Source>
+      <Name>images\pdrNew2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\pdrNew2.xnb</Output>
+      <Time>2013-04-04T20:57:59.089911+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\player_show.png</Source>
+      <Name>images\player_show</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\player_show.xnb</Output>
+      <Time>2013-04-04T20:57:59.105511+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\quests.png</Source>
+      <Name>images\quests</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\quests.xnb</Output>
+      <Time>2013-04-04T20:57:59.105511+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\redMushroom.png</Source>
+      <Name>images\redMushroom</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\redMushroom.xnb</Output>
+      <Time>2013-04-04T20:57:59.105511+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\rockkNew.png</Source>
+      <Name>images\rockkNew</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\rockkNew.xnb</Output>
+      <Time>2013-04-04T20:57:59.105511+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\scroll.png</Source>
+      <Name>images\scroll</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\scroll.xnb</Output>
+      <Time>2013-04-04T20:57:59.105511+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\smallBlock.png</Source>
+      <Name>images\smallBlock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\smallBlock.xnb</Output>
+      <Time>2013-04-04T20:57:59.105511+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\snakeDarkFro.png</Source>
+      <Name>images\snakeDarkFro</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\snakeDarkFro.xnb</Output>
+      <Time>2013-04-04T20:57:59.105511+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\snakeDarkRev.png</Source>
+      <Name>images\snakeDarkRev</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\snakeDarkRev.xnb</Output>
+      <Time>2013-04-04T20:57:59.105511+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\snakeFro.png</Source>
+      <Name>images\snakeFro</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\snakeFro.xnb</Output>
+      <Time>2013-04-04T20:57:59.105511+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\snakeFro2.png</Source>
+      <Name>images\snakeFro2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\snakeFro2.xnb</Output>
+      <Time>2013-04-04T20:57:59.105511+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\snakeRev.png</Source>
+      <Name>images\snakeRev</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\snakeRev.xnb</Output>
+      <Time>2013-04-04T20:57:59.1211111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\snakeRev2.png</Source>
+      <Name>images\snakeRev2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\snakeRev2.xnb</Output>
+      <Time>2013-04-04T20:57:59.1211111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\spirit3.png</Source>
+      <Name>images\spirit3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\spirit3.xnb</Output>
+      <Time>2013-04-04T20:57:59.1211111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\stoneBlock.png</Source>
+      <Name>images\stoneBlock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\stoneBlock.xnb</Output>
+      <Time>2013-04-04T20:57:59.1211111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\tigerBlackFro.png</Source>
+      <Name>images\tigerBlackFro</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\tigerBlackFro.xnb</Output>
+      <Time>2013-04-04T20:57:59.1211111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\tigerBlackRev.png</Source>
+      <Name>images\tigerBlackRev</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\tigerBlackRev.xnb</Output>
+      <Time>2013-04-04T20:57:59.1211111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\tigerFro.png</Source>
+      <Name>images\tigerFro</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\tigerFro.xnb</Output>
+      <Time>2013-04-04T20:57:59.1211111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\tigerRev.png</Source>
+      <Name>images\tigerRev</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\tigerRev.xnb</Output>
+      <Time>2013-04-04T20:57:59.1211111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\titleScreenNew.png</Source>
+      <Name>images\titleScreenNew</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\titleScreenNew.xnb</Output>
+      <Time>2013-04-04T20:57:59.1211111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\tower.jpg</Source>
+      <Name>images\tower</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\tower.xnb</Output>
+      <Time>2013-04-04T20:57:59.1367111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\tower1.png</Source>
+      <Name>images\tower1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\tower1.xnb</Output>
+      <Time>2013-04-04T20:57:59.1367111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\tree1.png</Source>
+      <Name>images\tree1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\tree1.xnb</Output>
+      <Time>2013-04-04T20:57:59.1367111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\tute.png</Source>
+      <Name>images\tute</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\tute.xnb</Output>
+      <Time>2013-04-04T20:57:59.1367111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\vine.png</Source>
+      <Name>images\vine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\vine.xnb</Output>
+      <Time>2013-04-04T20:57:59.1367111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\vineBlock.png</Source>
+      <Name>images\vineBlock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\vineBlock.xnb</Output>
+      <Time>2013-04-04T20:57:59.1367111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\waterNew.png</Source>
+      <Name>images\waterNew</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\waterNew.xnb</Output>
+      <Time>2013-04-04T20:57:59.1367111+05:30</Time>
+    </Item>
+    <Item>
+      <Source>images\win.png</Source>
+      <Name>images\win</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\images\win.xnb</Output>
+      <Time>2013-04-04T20:57:59.1367111+05:30</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden StatueContent\</RootDirectory>
+      <LoggerRootDirectory>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\</LoggerRootDirectory>
+      <IntermediateDirectory>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden StatueContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>c:\users\prasad\documents\visual studio 2010\Projects\Golden Statue\Golden Statue\Golden Statue\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+05:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+05:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+05:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+05:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+05:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+05:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-01-05T19:00:10.691099+05:30</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
